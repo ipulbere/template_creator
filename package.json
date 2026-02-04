@@ -1,0 +1,8 @@
+"dependencies": {
+  "next": "latest",
+  "react": "latest",
+  "react-dom": "latest",
+  "lucide-react": "latest",
+  "@supabase/supabase-js": "latest",
+  "@google/generative-ai": "latest"
+}
