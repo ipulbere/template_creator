@@ -2,8 +2,6 @@
 module.exports = {
   content: [
     "./app/**/*.{js,ts,jsx,tsx,mdx}",
-    "./components/**/*.{js,ts,jsx,tsx,mdx}",
-    "./dashboard/**/*.{js,ts,jsx,tsx,mdx}", // Add this just in case
   ],
   theme: {
     extend: {
