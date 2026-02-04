@@ -1,17 +1,9 @@
 import './globals.css'
-export const metadata = {
-  title: 'Template Creator',
-  description: 'AI Website Generator',
-}
 
-export default function RootLayout({
-  children,
-}: {
-  children: React.ReactNode
-}) {
+export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="en">
-      <body>{children}</body>
+    <html lang="en" className="bg-slate-950 text-white">
+      <body className="antialiased">{children}</body>
     </html>
   )
 }
